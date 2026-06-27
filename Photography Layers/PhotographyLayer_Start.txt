@@ -1,0 +1,3114 @@
+$grp CinematicEntity {
+ Camera_VFX {
+  coords 0 0 0
+  Scene CinematicScene "{66F42A77EB033D8E}" {
+   Tracks {
+    CameraCinematicTrack "{673159D158DD310B}" {
+     TrackName "MainCamera"
+     Position Vector3CinematicTrack "{673159D158DD3126}" {
+      TrackName "Position"
+      X FloatCinematicTrack "{673159D158DD312A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{673159D158DD312E}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{673159D158DD3131}" {
+       TrackName "Z"
+      }
+     }
+     Angles Vector3CinematicTrack "{673159D158DD3134}" {
+      TrackName "Angles"
+      X FloatCinematicTrack "{673159D158DD3139}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{673159D158DD313A}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{673159D158DD313C}" {
+       TrackName "Z"
+      }
+     }
+     FOV FloatCinematicTrack "{673159D158DD3143}" {
+      TrackName "FOV"
+     }
+     DOF DOFCinematicTrack "{673159D158DD3147}" {
+      TrackName "DOF"
+      Enabled BooleanCinematicTrack "{673159D158DD314D}" {
+       TrackName "Enabled"
+      }
+      FocusDistance FloatCinematicTrack "{673159D158DD314F}" {
+       TrackName "FocusDistance"
+      }
+      LengthNear FloatCinematicTrack "{673159D158DD3153}" {
+       TrackName "LengthNear"
+      }
+      LengthFar FloatCinematicTrack "{673159D158DD3155}" {
+       TrackName "LengthFar"
+      }
+     }
+     DOFAdvanced DOFAdvancedCinematicTrack "{673159D158DD3156}" {
+      TrackName "DOFAdvanced"
+      Enabled BooleanCinematicTrack "{673159D158DD315E}" {
+       TrackName "Enabled"
+      }
+      FocusDistance FloatCinematicTrack "{673159D158DD3160}" {
+       TrackName "FocusDistance"
+      }
+      FStop FloatCinematicTrack "{673159D158DD3162}" {
+       TrackName "FStop"
+      }
+      SensorSize FloatCinematicTrack "{673159D158DD3169}" {
+       TrackName "SensorSize"
+      }
+      FocalLengthAuto BooleanCinematicTrack "{673159D158DD316B}" {
+       TrackName "FocalLengthAuto"
+      }
+      FocalLength FloatCinematicTrack "{673159D158DD316D}" {
+       TrackName "FocalLength"
+      }
+     }
+     HDR HDRCinematicTrack "{673159D158DD316E}" {
+      TrackName "HDR"
+      ManualExposition BooleanCinematicTrack "{673159D158DD3172}" {
+       TrackName "ManualExposition"
+      }
+      ExpositionLV FloatCinematicTrack "{673159D158DD3174}" {
+       TrackName "ExpositionLV"
+      }
+     }
+    }
+   }
+  }
+ }
+ Character_BoneSet_01 {
+  coords 0 0 0
+  Scene CinematicScene "{66DF22BBAE98D9BC}" {
+   Tracks {
+    AnimationCinematicTrack "{66DF22B9862FACD2}" {
+     TrackName "CH1"
+     Flags 0x2 0
+     Play BooleanCinematicTrack "{66DF22B9862FACEC}" {
+      TrackName "Play"
+      Keyframes {
+       BooleanCinematicKeyframe "{66DF22B0EB1FC4B8}" {
+        FrameNumber 0
+        Value 1
+       }
+      }
+      Flags 0x2 0
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22BD8CDF4710}" {
+     TrackName "______________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B2315C6BDB}" {
+     TrackName "CH1_Bone_Head"
+     Flags 0 0
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B2315C6BE9}" {
+       TrackName "m_sSlotName"
+       Flags 0 0
+      }
+      StringCinematicTrack "{66DF22B2315C6BEA}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E402379209CE2F}" {
+         FrameNumber 0
+         Value "Head"
+        }
+       }
+       Flags 0 0
+      }
+      Vector3CinematicTrack "{66DF22B2315C6BEE}" {
+       TrackName "m_YawPitchRoll"
+       Flags 0 0
+       X FloatCinematicTrack "{66DF22B2315C6BF3}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A708B21C47A}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+        Flags 0 0
+       }
+       Y FloatCinematicTrack "{66DF22B2315C6BF2}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70943399F0}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+        Flags 0 0
+       }
+       Z FloatCinematicTrack "{66DF22B2315C6BF5}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A7095B80439}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+        Flags 0 0
+       }
+      }
+      Vector3CinematicTrack "{66DF22B2315C6BF7}" {
+       TrackName "m_Position"
+       Flags 0 0
+       X FloatCinematicTrack "{66DF22B2315BB655}" {
+        TrackName "X"
+        Flags 0 0
+       }
+       Y FloatCinematicTrack "{66DF22B2315BB65B}" {
+        TrackName "Y"
+        Flags 0 0
+       }
+       Z FloatCinematicTrack "{66DF22B2315BB65A}" {
+        TrackName "Z"
+        Flags 0 0
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B22C1BC417}" {
+     TrackName "CH1_Bone_Neck3"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B22C1BC4EF}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B22C1BC4EC}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E402379D7EAA7B}" {
+         FrameNumber 0
+         Value "Neck3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B22C1BC4E3}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B22C1BC4E6}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709168CD02}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B22C1BDF2B}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709388C8E6}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B22C1BDF2A}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F629FBE19AC388}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B22C1BDF29}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B22C1BF68F}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B22C1BF68E}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B22C1BF691}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B21118B342}" {
+     TrackName "CH1_Bone_Neck2"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B21118B36F}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B21118B36E}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E402379888EC52}" {
+         FrameNumber 0
+         Value "Neck2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B21118B373}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B21118B375}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B21118B374}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709E98842C}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B211183D1F}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709FABCD3E}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B211183D1C}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B211183D1D}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B211183D12}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B211183D13}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22BDFBF1BEEF}" {
+     TrackName "CH1_Bone_Neck1"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22BDFBF1B17E}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22BDFBF1B207}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E402379B625C29}" {
+         FrameNumber 0
+         Value "Neck1"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22BDFBF1B272}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22BDFBF1B27B}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709941597F}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22BDFBF1B27E}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709AD2A7C7}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22BDFBF1B284}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A709A79CD7C}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22BDFBF1B2ED}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22BDFBF1B2F1}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22BDFBF1B2F2}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22BDFBF1B2F4}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22B32C6B7E77}" {
+     TrackName "_________________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B3C2AFA318}" {
+     TrackName "CH1_Bone_Spine5"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B3C2AFA367}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B3C2AFA365}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E40237A6D11179}" {
+         FrameNumber 0
+         Value "Spine5"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B3C2AFA369}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B3C2AFA36F}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A54235E1}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B3C2AFA36E}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A65A6BD5}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B3C2AFC289}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A79C4E90}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B3C2AFC28A}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B3C2AFC28B}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B3C2AFC294}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B3C2AFC295}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B068FD1D15}" {
+     TrackName "CH1_Bone_Spine4"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B068FD1D18}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B068FD1D1A}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E40237A1BAF230}" {
+         FrameNumber 0
+         Value "Spine4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B068FD1D27}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B068FD1D21}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A17A14A7}" {
+          FrameNumber 0
+          Value 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B068FD1D22}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A2CAB298}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B068FD1D2C}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70A234088C}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B068FD1D2D}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B068FD1D2E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B068FD1D2F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B068FDF553}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B070CAB07A}" {
+     TrackName "CH1_Bone_Spine3"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B070CAB073}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B070CAB074}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E40237ACA68659}" {
+         FrameNumber 0
+         Value "Spine3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B070CAB068}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B070CAB06A}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EF8EB969D2}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B070CAB06C}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70ADF86034}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B070CAB06E}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B070CAB06F}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B070CAB060}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B070CAB061}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B070CAB062}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B07A908B02}" {
+     TrackName "CH1_Bone_Spine2"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B07A908B7D}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B07A908B7F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E40237AE31FFE6}" {
+         FrameNumber 0
+         Value "Spine2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B07A908B73}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B07A908B74}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B07A908B75}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70AF9EDD87}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B07A908B69}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B07A908B6A}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B07A908B6B}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B07A90C909}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B07A90C90E}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B082CD9126}" {
+     TrackName "CH1_Bone_Spine1"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B082CD91DF}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B082CD91DD}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66E40237A9C5E80D}" {
+         FrameNumber 0
+         Value "Spine1"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B082CD91D1}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B082CD91D7}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F629FBF6E8683C}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B082CD91D4}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70AAD638C2}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B082CD91CB}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F42A70ABEAC65E}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B082CD91C8}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B082CD91C9}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B082CD91CE}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B082CD91CF}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22B08E62DF92}" {
+     TrackName "_______________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B1CD325228}" {
+     TrackName "CH1_Bone_RightShoulder"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B1CD325221}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B1CD325227}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B1D580E10C}" {
+         FrameNumber 0
+         Value "RightShoulder"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1CD325224}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B1CD3252DA}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F611803C15}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B1CD3252DB}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242ED0B5D2B23}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B1CD3252D8}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F612459393}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1CD3252D9}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B1CD3252DE}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1CD3252DF}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1CD3252DC}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B1D3FBCE34}" {
+     TrackName "CH1_Bone_RightArm"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B1D3FBCE20}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B1D3FBCE21}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B1DCD8D8FF}" {
+         FrameNumber 0
+         Value "RightArm"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1D3FBCEDA}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B1D3FBCED8}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1D3FBCED9}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1D3FBCEDE}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1D3FBCEDF}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B1D3FBCEDC}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1D3FBCEDD}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1D3FBCED2}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B1E76E4991}" {
+     TrackName "CH1_Bone_RightArmTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B1E76E498C}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B1E76E498D}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B1E023E9E7}" {
+         FrameNumber 0
+         Value "RightArmTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1E76E4986}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B1E76E4984}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1E76E4985}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1E76E49BA}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1E76E49BB}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B1E76E49B8}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1E76E49B9}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1E76E49BF}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B1F8995B9A}" {
+     TrackName "CH1_Bone_RightForeArm"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B1F8995B93}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B1F8995B90}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B1F925AF91}" {
+         FrameNumber 0
+         Value "RightForeArm"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1F8995B94}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B1F8995B8A}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1F899530A}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1F899530B}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B1F8995309}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B1F898982C}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B1F898982A}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B1F8983E1D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B60618A7F5}" {
+     TrackName "CH1_Bone_RightForeArmTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B60618A78D}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B60618A78F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B608D62B82}" {
+         FrameNumber 0
+         Value "RightForeArmTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B60618A783}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B60618A786}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B60618A798}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B60618983A}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B60618983B}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B606189838}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B606189839}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B60618983E}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22B68B8D410C}" {
+     TrackName "________________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B7475AA99C}" {
+     TrackName "CH1_Bone_LeftShoulder"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7475AA867}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7475AA865}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B749DA6D0B}" {
+         FrameNumber 0
+         Value "LeftShoulder"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7475AA860}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7475AA86E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7475AA86F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7475AA86C}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7475AA86D}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7475AA86A}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7475A10D4}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7475A10D5}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B757854EB4}" {
+     TrackName "CH1_Bone_LeftArm"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B757854EAE}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B757854EAF}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B751009C11}" {
+         FrameNumber 0
+         Value "LeftArm"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B757854EA3}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B757854EA6}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B757854EA7}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B757854E58}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B757854E59}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B757854E5A}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B757854241}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B757854240}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B75F953DB5}" {
+     TrackName "CH1_Bone_LeftArmTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B75F953DBC}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B75F953D43}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7585B2A30}" {
+         FrameNumber 0
+         Value "LeftArmTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B75F953D40}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B75F953D46}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B75F953D45}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B75F94DC60}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B75F94DC6E}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B75F94DC6F}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B75F94DC6C}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B75F94DC6D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B7643A0595}" {
+     TrackName "CH1_Bone_LeftForeArm"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7643A059A}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7643A059B}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B766E7AA56}" {
+         FrameNumber 0
+         Value "LeftForeArm"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7643A0566}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7643A0564}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7643A0565}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7643A0562}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7643A0563}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7643A0560}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7643A0561}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7643A056E}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B762C20082}" {
+     TrackName "CH1_Bone_LeftForeArmTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B762C2008B}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B762C20088}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7634708BE}" {
+         FrameNumber 0
+         Value "LeftForeArmTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B762C20094}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B762C20095}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B762C20092}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B762C20093}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B762C20090}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B762C20091}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B762C26262}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B762C2626C}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22B77B54C7BB}" {
+     TrackName "_______________________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B7AC07DC35}" {
+     TrackName "CH1_Bone_RightLeg"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7AC07DC3F}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7AC07DC01}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7A83FE998}" {
+         FrameNumber 0
+         Value "RightLeg"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7AC07DC02}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7AC07DC04}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7AC07DC07}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EF9AEF86E7}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B7AC07DC06}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7AC184021}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7AC18402E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7AC18402C}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7AC18402D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B7B0D54BFF}" {
+     TrackName "CH1_Bone_RightLegTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7B0D54B85}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7B0D54B83}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7B160A143}" {
+         FrameNumber 0
+         Value "RightLegTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7B0D54B8F}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7B0D54B8A}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7B0D54B8B}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F65C5BF0F6}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B7B0D54B88}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7B0D54B89}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7B0D54B96}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7B0D525A2}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7B0D525A0}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B7BEDA5DD0}" {
+     TrackName "CH1_Bone_RightKnee"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7BEDA5DDE}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7BEDA5DDF}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7BF81E8B6}" {
+         FrameNumber 0
+         Value "RightKnee"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7BEDA5DC3}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7BEDA5DC1}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7BEDA5DC6}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EFA2541BB5}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B7BEDA5DC7}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7BEDA5DC4}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7BEDA5DCA}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7BEDA5EEA}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7BEDA5EEB}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B7C46E6B24}" {
+     TrackName "CH1_Bone_RightKneeTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7C46E6BD1}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7C46E6BD6}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7C7065CF4}" {
+         FrameNumber 0
+         Value "RightKneeTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7C46E6BDA}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7C46E6BD8}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7C46ED510}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7C46ED511}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7C46ED516}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7C46ED517}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7C46F072E}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7C46F072D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B7CC55AAE3}" {
+     TrackName "CH1_Bone_RightFoot"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B7CC55AAE8}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B7CC55AAEF}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B7CEC20130}" {
+         FrameNumber 0
+         Value "RightFoot"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7CC55AAF3}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B7CC55AAF1}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7CC55C520}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EFAEF124A2}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B7CC55C521}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B7CC55C526}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B7CC55C527}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B7CC55022F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B7CC55022C}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66DF22B7D7B5CDB5}" {
+     TrackName "________________________________________________"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B40C9E11DC}" {
+     TrackName "CH1_Bone_LeftLeg"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B40C9E11D7}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B40C9E11D1}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B40FC7943F}" {
+         FrameNumber 0
+         Value "LeftLeg"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B40C9E11D2}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B40C9E11EC}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B40C9E11EF}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EFA9FD712D}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B40C9E11EE}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B40C9E11E9}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B40C9E09C5}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B40C9E09C4}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B40C9E09C7}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B41561ECA9}" {
+     TrackName "CH1_Bone_LeftLegTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B41561ECB3}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B41561ECB5}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B41625E0CA}" {
+         FrameNumber 0
+         Value "LeftLegTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B41561ECB6}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B41561ECB8}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B41561ECBB}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B41561A725}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B41561A724}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B41561A723}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B41561A722}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B41561A721}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B41355C2A4}" {
+     TrackName "CH1_Bone_LeftKnee"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B41355C298}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B41355C296}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B41C2F6E91}" {
+         FrameNumber 0
+         Value "LeftKnee"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B41355C292}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B41355C290}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B41355CC11}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EFB6957474}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B41355CC0E}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F242EFB61F1546}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B41355CC0F}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B41355CC0C}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B41355CC0D}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B41355CC0A}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B4199322BF}" {
+     TrackName "CH1_Bone_LeftKneeTwist"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B4199322B5}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B4199322B2}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B41A49D5E1}" {
+         FrameNumber 0
+         Value "LeftKneeTwist"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B4199322B1}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B4199322AF}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B4199322AC}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B4199322AD}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B41993DDD6}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B41993DDD1}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B41993DDD0}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B41993DDD3}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{66DF22B427E5F277}" {
+     TrackName "CH1_Bone_LeftFoot"
+     CategoryGUID "{67043295229AC116}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B427E5F279}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B427E5F27B}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B420AA6254}" {
+         FrameNumber 0
+         Value "LeftFoot"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B427E5F204}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B427E5F206}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B427E5F201}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B427E4496C}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{66DF22B427E4496D}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B427E4496E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B427E4496F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B427E44960}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{66F42A76A45C9611}" {
+     TrackName "________________________________________________2"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{66DF22B6167FCF8C}" {
+     TrackName "CH1_Bone_RightHand"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{66DF22B6167FCF9A}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{66DF22B6167FCF9B}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{66DF22B6171AE5A3}" {
+         FrameNumber 0
+         Value "RightHand"
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B6167FCF9E}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{66DF22B6167FCF9C}" {
+        TrackName "X"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F61515EED9}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Y FloatCinematicTrack "{66DF22B6167FCF9D}" {
+        TrackName "Y"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F617CABFDC}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+       Z FloatCinematicTrack "{66DF22B6167C44AB}" {
+        TrackName "Z"
+        Keyframes {
+         FloatCinematicKeyframe "{66F041F61743E0D6}" {
+          FrameNumber 0
+          Value 0
+          InterpMode 0
+         }
+        }
+       }
+      }
+      Vector3CinematicTrack "{66DF22B6167C44A4}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{66DF22B6167C44A5}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{66DF22B6167C44A6}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{66DF22B6167C44A7}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67030840CF43E2DD}" {
+     TrackName "________________________________________________3"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{67030840B7468FBF}" {
+     TrackName "CH1_Bone_RightHandThumb2"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67030840B74682A3}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67030840B746833F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67030840B21EE6F1}" {
+         FrameNumber 0
+         Value "RightHandThumb2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67030840B74683BA}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67030840B74683C2}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840B74683C9}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840B74683CA}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67030840B7468441}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67030840B7468445}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840B7468446}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840B7468448}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67030840BDE14271}" {
+     TrackName "CH1_Bone_RightHandThumb3"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67030840BDE14278}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67030840BDE1427D}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67030840BA7E367F}" {
+         FrameNumber 0
+         Value "RightHandThumb3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67030840BDE15CC8}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67030840BDE15C36}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840BDE15C37}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840BDE15C34}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67030840BDE1ABCA}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67030840BDE1ABCB}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840BDE1ABCC}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840BDE1ABCD}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67030840BF2F8731}" {
+     TrackName "CH1_Bone_RightHandThumb4"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67030840BF2F87CA}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67030840BF2F87CC}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67030840C55B811A}" {
+         FrameNumber 0
+         Value "RightHandThumb4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67030840BF2F87C0}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67030840BF2F87C1}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840BF2F87C2}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840BF2F87C3}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67030840BF2F87C4}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67030840BF2FC9BE}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67030840BF2FC9BF}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67030840BF2FC9BC}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043295CAE28AB2}" {
+     TrackName "________________________________________________4"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{67043295E29B64CA}" {
+     TrackName "CH1_Bone_RightHandIndex2"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295E29B64FF}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295E29B64F9}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043295EC957B88}" {
+         FrameNumber 0
+         Value "RightHandIndex2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295E29B64E5}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295E29B64E7}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295E29B64E1}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295E29B64E2}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295E29B64E3}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295E29B413A}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295E29B4134}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295E29B4137}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67043295ED2BA68C}" {
+     TrackName "CH1_Bone_RightHandIndex3"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295ED2BA685}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295ED2BA684}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043295E8B192DA}" {
+         FrameNumber 0
+         Value "RightHandIndex3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295ED2BA680}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295ED2BA682}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295ED2BA69D}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295ED2BF1F9}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295ED2BF1F8}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295ED2BF1FB}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295ED2BF1FA}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295ED2A2355}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67043295EE83B958}" {
+     TrackName "CH1_Bone_RightHandIndex4"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295EE83B960}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295EE83B961}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043295EBCC0C13}" {
+         FrameNumber 0
+         Value "RightHandIndex4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295EE83B96D}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295EE83B96B}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295EE83B969}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295EE83F93C}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295EE83F923}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295EE83F922}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295EE83F921}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295EE83F920}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043295F5B5EADD}" {
+     TrackName "________________________________________________5"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{67043295FCE765ED}" {
+     TrackName "CH1_Bone_RightHandMiddle2"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295FCE76595}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295FCE76594}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043295FE49D408}" {
+         FrameNumber 0
+         Value "RightHandMiddle2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295FCE7659F}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295FCE7659D}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295FCE76583}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295FCE76582}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295FCE76581}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295FCE76586}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295FCE7E63D}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295FCE7E63F}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67043295F8A24A67}" {
+     TrackName "CH1_Bone_RightHandMiddle3"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295F8A24A7E}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295F8A24A7F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043295FBB7BCC5}" {
+         FrameNumber 0
+         Value "RightHandMiddle3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295F8A24A73}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295F8A24A74}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295F8A24A75}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295F8A24A76}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295F8A24A77}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295F8A24493}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295F8A244AC}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295F8A244AD}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67043295F831F380}" {
+     TrackName "CH1_Bone_RightHandMiddle4"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043295F831F398}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043295F831F399}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043292054DA6D8}" {
+         FrameNumber 0
+         Value "RightHandMiddle4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043295F831F395}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043295F831F391}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295F831F392}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295F831F393}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043295F8367EA1}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043295F8367E9E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043295F8367E9F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043295F83678E9}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043292078F57B2}" {
+     TrackName "________________________________________________6"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{670432920DDE3F83}" {
+     TrackName "CH1_Bone_RightHandRing2"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432920DDE3F9A}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432920DDE3F9C}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432920F428880}" {
+         FrameNumber 0
+         Value "RightHandRing2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432920DDE3F9F}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432920DDE3F91}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432920DDE3F92}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432920DDE3F93}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432920DDE34F4}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432920DDE34F3}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432920DDE34F2}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432920DDE34F1}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432920B23DEC4}" {
+     TrackName "CH1_Bone_RightHandRing3"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432920B23DEDC}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432920B23DEDA}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329216765410}" {
+         FrameNumber 0
+         Value "RightHandRing3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432920B23DED7}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432920B23DED5}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432920B23DED4}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432920B23DED3}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432920B23DED2}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432920B230403}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432920B230400}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432920B230401}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329214719EEF}" {
+     TrackName "CH1_Bone_RightHandRing4"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329214719EE4}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329214719EE2}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043292109D7CEF}" {
+         FrameNumber 0
+         Value "RightHandRing4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329214719EE1}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329214719EDF}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329214719EDC}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329214719EDD}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{6704329214719EDA}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329214702AAE}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329214702AAF}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329214702AAC}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{670432921259550B}" {
+     TrackName "________________________________________________7"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{670432921FC8A1FE}" {
+     TrackName "CH1_Bone_RightHandPinky2"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432921FC8A1F1}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432921FC8A1F7}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043292192467FB}" {
+         FrameNumber 0
+         Value "RightHandPinky2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432921FC8A10B}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432921FC8A108}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921FC8A109}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921FC8A10E}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432921FC8A10F}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432921FC8A10C}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921FC8C136}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921FC8C137}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432921BCDE822}" {
+     TrackName "CH1_Bone_RightHandPinky3"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432921BCDE82A}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432921BCDE82B}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329226CAC338}" {
+         FrameNumber 0
+         Value "RightHandPinky3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432921BCDE82F}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432921BCDE811}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921BCDE812}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921BCD5EAB}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432921BCD5EAA}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432921BCD5EAD}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921BCD5EAC}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921BCD5EAF}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432921B6CF909}" {
+     TrackName "CH1_Bone_RightHandPinky4"
+     CategoryGUID "{67043295C577FC16}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432921B6CF901}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432921B6CF900}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329223E88A57}" {
+         FrameNumber 0
+         Value "RightHandPinky4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432921B6CF904}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432921B6CF906}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921B6CF919}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921B6F0F69}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432921B6F0F68}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432921B6F0F6B}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432921B6F4B92}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432921B6F4B93}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{670432922D8C086A}" {
+     TrackName "________________________________________________8"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{67043292347BBAED}" {
+     TrackName "CH1_Bone_LeftHand"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043292347BBAF6}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043292347BBAF8}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043292360C2B96}" {
+         FrameNumber 0
+         Value "LeftHand"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043292347BBAFC}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043292347BBAFE}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292347BBAFF}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292347BBA00}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043292347BBA01}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043292347BBA02}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292347BBA03}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292347B72DE}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{6704329230AA30FF}" {
+     TrackName "________________________________________________9"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{67043292572A7D77}" {
+     TrackName "CH1_Bone_LeftHandThumb2"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043292572A7D6F}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043292572A7D6E}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329252E963BC}" {
+         FrameNumber 0
+         Value "LeftHandThumb2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043292572A7D6A}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043292572A7D65}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292572A7D67}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292572A7D66}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043292572BF39E}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043292572BF399}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292572BF398}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292572BF39B}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329253AFFC48}" {
+     TrackName "CH1_Bone_LeftHandThumb3"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329253AFFC51}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329253AFFC53}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432925EF16A8F}" {
+         FrameNumber 0
+         Value "LeftHandThumb3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329253AFFC5C}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329253AFFC5E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329253AFFC59}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329253AFFC58}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{6704329253AFFC5B}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329253AFF9BC}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329253AFF9BD}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329253AFE642}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432925337FA11}" {
+     TrackName "CH1_Bone_LeftHandThumb4"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432925337FA19}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432925337FA1F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432925F0BE9C7}" {
+         FrameNumber 0
+         Value "LeftHandThumb4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432925337FA21}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432925337FA27}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432925337FA25}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432925337FA2A}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432925337FA2B}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329253378E9C}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329253378E9F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329253378E9E}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043292590D92F8}" {
+     TrackName "________________________________________________10"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{6704329267894268}" {
+     TrackName "CH1_Bone_LeftHandIndex2"
+     Flags 0 0
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329267894250}" {
+       TrackName "m_sSlotName"
+       Flags 0 0
+      }
+      StringCinematicTrack "{6704329267894253}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432926169B4F5}" {
+         FrameNumber 0
+         Value "LeftHandIndex2"
+        }
+       }
+       Flags 0 0
+      }
+      Vector3CinematicTrack "{670432926789425F}" {
+       TrackName "m_YawPitchRoll"
+       Flags 0 0
+       X FloatCinematicTrack "{670432926789425E}" {
+        TrackName "X"
+        Flags 0 0
+       }
+       Y FloatCinematicTrack "{6704329267894259}" {
+        TrackName "Y"
+        Flags 0 0
+       }
+       Z FloatCinematicTrack "{6704329267894258}" {
+        TrackName "Z"
+        Flags 0 0
+       }
+      }
+      Vector3CinematicTrack "{670432926789425B}" {
+       TrackName "m_Position"
+       Flags 0 0
+       X FloatCinematicTrack "{670432926789425A}" {
+        TrackName "X"
+        Flags 0 0
+       }
+       Y FloatCinematicTrack "{6704329267897677}" {
+        TrackName "Y"
+        Flags 0 0
+       }
+       Z FloatCinematicTrack "{6704329267897668}" {
+        TrackName "Z"
+        Flags 0 0
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329262363146}" {
+     TrackName "CH1_Bone_LeftHandIndex3"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432926236317E}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432926236317F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432926D6D6F7A}" {
+         FrameNumber 0
+         Value "LeftHandIndex3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329262363172}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329262363176}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329262363177}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432926236EB67}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432926236EB78}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432926236EB79}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432926236EB7A}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432926236EB7B}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329263E249BA}" {
+     TrackName "CH1_Bone_LeftHandIndex4"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329263E249B1}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329263E249B2}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432926899EFE9}" {
+         FrameNumber 0
+         Value "LeftHandIndex4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329263E249B6}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329263E24948}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329263E24949}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329263E2494A}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{6704329263E2494B}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329263E2386F}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329263E23868}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329263EDC556}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{670432926BC36179}" {
+     TrackName "________________________________________________11"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{6704329270111178}" {
+     TrackName "CH1_Bone_LeftHandMiddle2"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329270111160}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329270111166}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432927388FED6}" {
+         FrameNumber 0
+         Value "LeftHandMiddle2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432927011116A}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329270111168}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329270111169}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432927011116E}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432927011116F}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432927011116C}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432927011116D}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329270117FBA}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432927C68E859}" {
+     TrackName "CH1_Bone_LeftHandMiddle3"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432927C68E861}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432927C68E860}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432927FE6E7E0}" {
+         FrameNumber 0
+         Value "LeftHandMiddle3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432927C68E86D}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432927C68E86F}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432927C68E86E}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432927C68E869}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432927C68E868}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432927C6806EB}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432927C6806E8}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432927C6806E9}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{670432927C0E60B3}" {
+     TrackName "CH1_Bone_LeftHandMiddle4"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432927C0E60BB}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432927C0E60B8}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329279B0E58C}" {
+         FrameNumber 0
+         Value "LeftHandMiddle4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432927C0E60C4}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432927C0E60C2}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432927C0E60C3}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432927C0E60C0}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432927C0E60C1}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432927C0E0DE8}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432927C0E0DE7}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432927C0E0DE6}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043292857B50B2}" {
+     TrackName "________________________________________________12"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{670432928CC18A19}" {
+     TrackName "CH1_Bone_LeftHandRing2"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432928CC18A11}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432928CC18A10}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432928EC4A97B}" {
+         FrameNumber 0
+         Value "LeftHandRing2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432928CC18A6C}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432928CC18A6B}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432928CC18A6A}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432928CC18A69}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432928CC18A68}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432928CC18A67}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432928CC18A66}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432928CC1A25D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329288AED5D1}" {
+     TrackName "CH1_Bone_LeftHandRing3"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329288AED5D9}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329288AED5DB}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329294FF40F4}" {
+         FrameNumber 0
+         Value "LeftHandRing3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329288AED5C6}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329288AED5C0}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329288AED5C1}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329288AED5C2}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{6704329288AECD8C}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329288AECD8D}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329288AECD82}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329288AECD83}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329288084340}" {
+     TrackName "CH1_Bone_LeftHandRing4"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329288084379}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432928808437F}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{6704329296CDE452}" {
+         FrameNumber 0
+         Value "LeftHandRing4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329288084372}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329288084370}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329288084371}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432928809BF9F}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432928809BF98}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432928809BF99}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432928809BF9A}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432928809BF9B}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{670432929744E9D9}" {
+     TrackName "________________________________________________13"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+    CustomCinematicTrack "{670432929C0FA9B5}" {
+     TrackName "CH1_Bone_LeftHandPinky2"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{670432929C0FA9BE}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{670432929C0FA9BF}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432929FD5102C}" {
+         FrameNumber 0
+         Value "LeftHandPinky2"
+        }
+       }
+      }
+      Vector3CinematicTrack "{670432929C0FA9BB}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{670432929C0FA9A5}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432929C0FA9A6}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432929C0FA9A7}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{670432929C0FA9A0}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{670432929C0F9C4E}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{670432929C0F9C4F}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{670432929C0F9C4C}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{67043292984BD6C0}" {
+     TrackName "CH1_Bone_LeftHandPinky3"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{67043292984BD6FB}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{67043292984BD6F8}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{670432929B2758B7}" {
+         FrameNumber 0
+         Value "LeftHandPinky3"
+        }
+       }
+      }
+      Vector3CinematicTrack "{67043292984BD6FF}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{67043292984BD6F0}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292984BD6F1}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292984BD6F6}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{67043292984BD6F7}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{67043292984B425F}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{67043292984B425C}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{67043292984B425D}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    CustomCinematicTrack "{6704329299DB4C16}" {
+     TrackName "CH1_Bone_LeftHandPinky4"
+     CategoryGUID "{67043292AEED8B1C}"
+     ClassName "SlotBoneAnimationCinematicTrack"
+     ChildTracks {
+      StringCinematicTrack "{6704329299DB4C1F}" {
+       TrackName "m_sSlotName"
+      }
+      StringCinematicTrack "{6704329299DB4C1C}" {
+       TrackName "m_sBoneName"
+       Keyframes {
+        StringCinematicKeyframe "{67043292A5B43070}" {
+         FrameNumber 0
+         Value "LeftHandPinky4"
+        }
+       }
+      }
+      Vector3CinematicTrack "{6704329299DB4C03}" {
+       TrackName "m_YawPitchRoll"
+       X FloatCinematicTrack "{6704329299DB4C01}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329299DB4C06}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329299DB4C07}" {
+        TrackName "Z"
+       }
+      }
+      Vector3CinematicTrack "{6704329299DB1D14}" {
+       TrackName "m_Position"
+       X FloatCinematicTrack "{6704329299DB1D17}" {
+        TrackName "X"
+       }
+       Y FloatCinematicTrack "{6704329299DB1D16}" {
+        TrackName "Y"
+       }
+       Z FloatCinematicTrack "{6704329299DB1FC5}" {
+        TrackName "Z"
+       }
+      }
+     }
+    }
+    ScriptEventsCinematicTrack "{67043292CF333DE5}" {
+     TrackName "________________________________________________14"
+     Flags 0x2 0
+     CategoryGUID "{66DF22B315BB9FAC}"
+    }
+   }
+   Categories {
+    CinematicTrackCategory "{66DF22B315BB9FAC}" {
+     Name "BREAK"
+     Color 0.706 0 0 1
+    }
+    CinematicTrackCategory "{67043295229AC116}" {
+     Name "Main"
+     Color 0.341 0.514 0.875 1
+    }
+    CinematicTrackCategory "{67043295C577FC16}" {
+     Name "Right_Hand"
+     Color 1 1 1 1
+    }
+    CinematicTrackCategory "{67043292AEED8B1C}" {
+     Name "Left_Hand"
+     Color 1 1 1 1
+    }
+   }
+  }
+ }
+}
